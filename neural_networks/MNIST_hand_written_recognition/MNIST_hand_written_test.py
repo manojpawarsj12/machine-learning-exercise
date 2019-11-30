@@ -4,6 +4,7 @@ import torch.nn.functional as F
 from torchvision import datasets, transforms
 from torch import optim
 import helper
+import itertools
 dev=0
 # Define a transform to normalize the data
 transform = transforms.Compose([transforms.ToTensor(),
